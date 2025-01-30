@@ -1,4 +1,4 @@
-Coffee = Struct.new(:taste, :color )
+Coffee = Struct.new(:taste, :color)
 
 RSpec.describe Coffee do
   let(:coffee) { Coffee.new("delicious") }
